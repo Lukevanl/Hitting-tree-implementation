@@ -2,7 +2,7 @@
 
 case class MTree[+T](value: T, children: List[MTree[T]]) {
   def this(value: T) = this(value, List())
-  override def toString = "M(" + value.toString + "{" + children.map(_.toString).mkString(",\n") + "})"
+  override def toString = "M(VISITED COMPONENTS:" + value.toString + "{" + children.map(_.toString).mkString(",\n") + "})"
 }
 
 object TreeStruct {
