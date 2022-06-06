@@ -19,13 +19,13 @@ object HittingTree {
   def gatherHittingSets(hitting_tree: HittingTree[Any]): List[List[FOLTerm]] = hitting_tree match {
       case HittingTree(comp, List()) => List(comp)
       //case HittingTree(comp, List(HittingTree(comp_found, children))) => (for (child <- children) yield gatherHittingSets(child)).concatenate
-      case HittingTree(comp, trees) => ThreeDimConcat((for (tree <- trees) yield gatherHittingSets(tree)))
+      case HittingTree(comp, trees) => ThreeDimConcat((for (tree <- trees) yield gatherHittingSets(tree))).filter(_ != List())
   }
 
   def ThreeDimConcat(list: List[List[List[FOLTerm]]]): List[List[FOLTerm]] = list match {
       case List() => List(List())
       case List(List()) => List(List())
-      case List(xs::xxs) => List(xs) ++ ThreeDimConcat(List(xxs))
+      case xs::xss => xs ++ ThreeDimConcat(xss)
       //case _ => List(List())
   }
 

@@ -21379,3 +21379,41 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$:
 2022.06.06 21:30:19 INFO  Attaching to debuggee VM succeeded.
 2022.06.06 21:30:20 INFO  Canceling debug proxy for [Main]
 2022.06.06 21:30:20 INFO  Closing debug server tcp://0.0.0.0:60740
+2022.06.06 21:34:20 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 9m 14.858s)
+2022.06.06 21:34:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:34:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:34:20 INFO  Starting debug proxy for [Main]
+2022.06.06 21:34:21 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60778 .
+2022.06.06 21:34:21 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:34:22 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:34:22 INFO  Closing debug server tcp://0.0.0.0:60774
+2022.06.06 21:34:32 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:34:32 INFO  time: compiled kr-practical in 0.57s
+2022.06.06 21:34:34 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 9m 28.775s)
+2022.06.06 21:34:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:34:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:34:34 INFO  Starting debug proxy for [Main]
+2022.06.06 21:34:35 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60795 .
+2022.06.06 21:34:35 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:34:36 ERROR Exception in thread "main" scala.MatchError: List(List(List(a1)), List(List(a1, o1))) (of class scala.collection.immutable.$colon$colon)
+2022.06.06 21:34:36 ERROR 	at HittingTree$.ThreeDimConcat(HittingTree.scala:25)
+2022.06.06 21:34:36 ERROR 	at HittingTree$.gatherHittingSets(HittingTree.scala:22)
+2022.06.06 21:34:36 ERROR 	at HittingTree$.$anonfun$gatherHittingSets$1(HittingTree.scala:22)
+2022.06.06 21:34:36 ERROR 	at scala.collection.immutable.List.map(List.scala:222)
+2022.06.06 21:34:36 ERROR 	at HittingTree$.gatherHittingSets(HittingTree.scala:22)
+2022.06.06 21:34:36 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:23)
+2022.06.06 21:34:36 ERROR 	at Main$delayedInit$body.apply(Main.scala:8)
+2022.06.06 21:34:36 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.06.06 21:34:36 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.06.06 21:34:36 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.06.06 21:34:36 ERROR 	at scala.App.$anonfun$main$1(App.scala:75)
+2022.06.06 21:34:36 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:75)
+2022.06.06 21:34:36 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+2022.06.06 21:34:36 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+2022.06.06 21:34:36 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:904)
+2022.06.06 21:34:36 ERROR 	at scala.App.main(App.scala:75)
+2022.06.06 21:34:36 ERROR 	at scala.App.main$(App.scala:73)
+2022.06.06 21:34:36 ERROR 	at Main$.main(Main.scala:8)
+2022.06.06 21:34:36 ERROR 	at Main.main(Main.scala)
+2022.06.06 21:34:36 INFO  Closing debug server tcp://0.0.0.0:60791
+2022.06.06 21:34:36 INFO  Canceling debug proxy for [Main]
