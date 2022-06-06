@@ -26,7 +26,7 @@ object HittingTree {
       case List() => List(List())
       case List(List()) => List(List())
       case List(xs::xxs) => List(xs) ++ ThreeDimConcat(List(xxs))
-      case _ => List(List())
+      //case _ => List(List())
   }
 
 }
