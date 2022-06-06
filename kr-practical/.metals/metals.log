@@ -12923,3 +12923,187 @@ WARNING: Unmatched cancel notification for request id 9
 2022.06.05 16:25:16 INFO  Attaching to debuggee VM succeeded.
 2022.06.05 16:25:17 INFO  Canceling debug proxy for [Main]
 2022.06.05 16:25:17 INFO  Closing debug server tcp://0.0.0.0:49242
+2022.06.05 17:06:22 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:06:22 INFO  time: compiled kr-practical in 62ms
+2022.06.05 17:06:25 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:06:25 INFO  time: compiled kr-practical in 37ms
+2022.06.05 17:06:26 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:06:26 INFO  time: compiled kr-practical in 49ms
+2022.06.05 17:06:27 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:06:27 INFO  time: compiled kr-practical in 0.41s
+2022.06.05 17:06:30 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:06:30 INFO  time: compiled kr-practical in 0.4s
+2022.06.05 17:06:31 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 41m 26.605s)
+2022.06.05 17:06:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:06:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:06:31 INFO  Starting debug proxy for [Main]
+2022.06.05 17:06:33 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49630 .
+2022.06.05 17:06:33 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:06:34 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:06:33 INFO  Closing debug server tcp://0.0.0.0:49625
+Jun 05, 2022 5:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+2022.06.05 17:08:06 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:08:06 INFO  time: compiled kr-practical in 0.38s
+2022.06.05 17:08:08 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 43m 3.263s)
+2022.06.05 17:08:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:08:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:08:08 INFO  Starting debug proxy for [Main]
+2022.06.05 17:08:09 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49648 .
+2022.06.05 17:08:09 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:08:10 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:08:09 INFO  Closing debug server tcp://0.0.0.0:49644
+2022.06.05 17:20:44 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:20:44 INFO  time: compiled kr-practical in 0.66s
+2022.06.05 17:20:44 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 55m 40.053s)
+2022.06.05 17:20:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:20:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:20:45 INFO  Starting debug proxy for [Main]
+2022.06.05 17:20:46 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49706 .
+2022.06.05 17:20:46 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:20:47 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:20:46 INFO  Closing debug server tcp://0.0.0.0:49702
+2022.06.05 17:21:39 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:21:39 INFO  time: compiled kr-practical in 0.36s
+2022.06.05 17:21:41 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:21:41 INFO  time: compiled kr-practical in 0.38s
+2022.06.05 17:21:43 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 56m 38.381s)
+2022.06.05 17:21:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:21:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:21:43 INFO  Starting debug proxy for [Main]
+2022.06.05 17:21:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49724 .
+2022.06.05 17:21:44 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:21:45 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:21:44 INFO  Closing debug server tcp://0.0.0.0:49720
+2022.06.05 17:22:22 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:22 INFO  time: compiled kr-practical in 0.37s
+2022.06.05 17:22:25 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+2022.06.05 17:22:25 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:25 INFO  time: compiled kr-practical in 0.37s
+2022.06.05 17:22:27 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:27 INFO  time: compiled kr-practical in 0.37s
+2022.06.05 17:22:27 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 57m 22.44s)
+2022.06.05 17:22:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:22:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:22:27 INFO  Starting debug proxy for [Main]
+2022.06.05 17:22:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49744 .
+2022.06.05 17:22:28 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:22:28 ERROR Exception in thread "main" scala.MatchError: None (of class scala.None$)
+2022.06.05 17:22:28 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:17)
+2022.06.05 17:22:28 ERROR 	at Main$delayedInit$body.apply(Main.scala:7)
+2022.06.05 17:22:28 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.06.05 17:22:28 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.06.05 17:22:28 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.06.05 17:22:28 ERROR 	at scala.App.$anonfun$main$1(App.scala:75)
+2022.06.05 17:22:28 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:75)
+2022.06.05 17:22:28 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+2022.06.05 17:22:28 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+2022.06.05 17:22:28 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:904)
+2022.06.05 17:22:28 ERROR 	at scala.App.main(App.scala:75)
+2022.06.05 17:22:28 ERROR 	at scala.App.main$(App.scala:73)
+2022.06.05 17:22:28 ERROR 	at Main$.main(Main.scala:7)
+2022.06.05 17:22:28 ERROR 	at Main.main(Main.scala)
+2022.06.05 17:22:28 INFO  Closing debug server tcp://0.0.0.0:49740
+2022.06.05 17:22:29 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:22:33 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:33 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 57m 28.002s)
+2022.06.05 17:22:33 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:33 INFO  time: compiled kr-practical in 0.22s
+2022.06.05 17:22:33 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 57m 28.243s)
+2022.06.05 17:22:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:22:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:22:33 INFO  Starting debug proxy for [Main]
+2022.06.05 17:22:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49756 .
+2022.06.05 17:22:34 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:22:34 ERROR Exception in thread "main" scala.MatchError: None (of class scala.None$)
+2022.06.05 17:22:34 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:17)
+2022.06.05 17:22:34 ERROR 	at Main$delayedInit$body.apply(Main.scala:7)
+2022.06.05 17:22:34 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.06.05 17:22:34 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.06.05 17:22:34 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.06.05 17:22:34 ERROR 	at scala.App.$anonfun$main$1(App.scala:75)
+2022.06.05 17:22:34 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:75)
+2022.06.05 17:22:34 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+2022.06.05 17:22:34 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+2022.06.05 17:22:34 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:904)
+2022.06.05 17:22:34 ERROR 	at scala.App.main(App.scala:75)
+2022.06.05 17:22:34 ERROR 	at scala.App.main$(App.scala:73)
+2022.06.05 17:22:34 ERROR 	at Main$.main(Main.scala:7)
+2022.06.05 17:22:34 ERROR 	at Main.main(Main.scala)
+2022.06.05 17:22:35 INFO  Closing debug server tcp://0.0.0.0:49752
+2022.06.05 17:22:35 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:22:47 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:47 INFO  time: compiled kr-practical in 0.37s
+2022.06.05 17:22:48 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:48 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 57m 43.56s)
+2022.06.05 17:22:48 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:22:48 INFO  time: compiled kr-practical in 0.32s
+2022.06.05 17:22:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:22:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:22:49 INFO  Starting debug proxy for [Main]
+2022.06.05 17:22:50 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49773 .
+2022.06.05 17:22:50 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:22:51 ERROR Exception in thread "main" scala.MatchError: None (of class scala.None$)
+2022.06.05 17:22:51 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:17)
+2022.06.05 17:22:51 ERROR 	at Main$delayedInit$body.apply(Main.scala:7)
+2022.06.05 17:22:51 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.06.05 17:22:51 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.06.05 17:22:51 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.06.05 17:22:51 ERROR 	at scala.App.$anonfun$main$1(App.scala:75)
+2022.06.05 17:22:51 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:75)
+2022.06.05 17:22:51 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+2022.06.05 17:22:51 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+2022.06.05 17:22:51 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:904)
+2022.06.05 17:22:51 ERROR 	at scala.App.main(App.scala:75)
+2022.06.05 17:22:51 ERROR 	at scala.App.main$(App.scala:73)
+2022.06.05 17:22:51 ERROR 	at Main$.main(Main.scala:7)
+2022.06.05 17:22:51 ERROR 	at Main.main(Main.scala)
+2022.06.05 17:22:51 INFO  Closing debug server tcp://0.0.0.0:49768
+2022.06.05 17:22:51 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:23:01 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:23:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+2022.06.05 17:23:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+2022.06.05 17:23:01 INFO  time: compiled kr-practical in 0.37s
+2022.06.05 17:23:02 INFO  compiling kr-practical (1 scala source)
+2022.06.05 17:23:02 INFO  time: compiled kr-practical in 22ms
+2022.06.05 17:23:03 INFO  compiling kr-practical (1 scala source)
+Jun 05, 2022 5:23:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:841)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:396)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.05 17:23:03 INFO  time: compiled kr-practical in 0.39s
+2022.06.05 17:23:08 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 58m 3.325s)
+2022.06.05 17:23:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.05 17:23:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.05 17:23:08 INFO  Starting debug proxy for [Main]
+2022.06.05 17:23:09 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49793 .
+2022.06.05 17:23:09 INFO  Attaching to debuggee VM succeeded.
+2022.06.05 17:23:10 INFO  Canceling debug proxy for [Main]
+2022.06.05 17:23:09 INFO  Closing debug server tcp://0.0.0.0:49789
