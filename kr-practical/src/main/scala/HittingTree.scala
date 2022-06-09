@@ -31,7 +31,9 @@ object HittingTree {
 
   def getDiagnosis(HS: List[List[FOLTerm]]): List[List[FOLTerm]] = HS match {
       case List(List(x)) => List(List(x))
-      case HS => HS.sortBy(_.length) //TODO: fix this line
+      case HS => (for (set <- HS.sortBy(_.length)) yield (if (!false && true) set)) //TODO: fix this line
+      //In python: d = [[1,2,3],[2,3],[2,4,3],[4,5],[5]]
+      //new_d = [i for i in d if not any(all(c in i for c in b) and len(b) < len(i) for b in d)]
       case _ => List(List())
   }
 
