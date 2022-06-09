@@ -21854,3 +21854,159 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$:
 2022.06.06 21:53:27 INFO  time: indexed workspace in 2.39s
 2022.06.06 21:53:28 INFO  compiling kr-practical (5 scala sources)
 2022.06.06 21:53:34 INFO  time: compiled kr-practical in 5.65s
+2022.06.09 09:11:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lukev\Documents\KnowRep\kr-practical\.metals\lsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.09 09:11:04 INFO  logging to file C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\metals.log
+2022.06.09 09:11:04 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\lukev\Documents\KnowRep\kr-practical' for client Visual Studio Code 1.67.2.
+2022.06.09 09:11:04 INFO  time: initialize in 0.48s
+2022.06.09 09:11:08 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.09 09:11:08 INFO  Attempting to connect to the build server...
+2022.06.09 09:11:08 INFO  skipping build import with status 'Installed'
+Jun 09, 2022 9:11:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jun 09, 2022 9:11:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2022.06.09 09:11:10 WARN  no build target for: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+Jun 09, 2022 9:11:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.09 09:11:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 09:11:12 INFO  Attempting to connect to the build server...
+2022.06.09 09:11:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\project\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 09:11:12 INFO  time: Connected to build server in 4.21s
+2022.06.09 09:11:12 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.09 09:11:13 INFO  no build target found for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.09 09:11:13 INFO  time: code lens generation in 3.11s
+2022.06.09 09:11:13 INFO  time: Imported build in 0.12s
+2022.06.09 09:11:14 INFO  no build target found for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.09 09:11:15 INFO  time: code lens generation in 5.29s
+2022.06.09 09:11:15 INFO  time: code lens generation in 5.31s
+Jun 09, 2022 9:11:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.09 09:11:16 INFO  time: code lens generation in 6.14s
+2022.06.09 09:11:16 INFO  time: code lens generation in 6.14s
+2022.06.09 09:11:16 INFO  time: code lens generation in 6.14s
+2022.06.09 09:11:19 INFO  time: indexed workspace in 5.54s
+Jun 09, 2022 9:11:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "2"
+    },
+    "eventTime": 1654758679282,
+    "message": "Compiled \u0027kr-practical\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/lukev/Documents/KnowRep/kr-practical/?id\u003dkr-practical"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/lukev/Documents/KnowRep/kr-practical/.bloop/kr-practical/bloop-bsp-clients-classes/classes-Metals-Y9i66NtiSVOjKDMkwMox_g\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/lukev/Documents/KnowRep/kr-practical/.bloop/kr-practical/kr-practical-analysis.bin"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException: Cannot invoke "scala.meta.pc.PresentationCompiler.restart()" because "compiler" is null
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:247)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:245)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:245)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:244)
+	at scala.collection.mutable.HashSet$Node.foreach(HashSet.scala:435)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:361)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:244)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12(MetalsLanguageServer.scala:438)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12$adapted(MetalsLanguageServer.scala:436)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:160)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:157)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:156)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:156)
+	... 16 more
+
+2022.06.09 09:11:22 INFO  shutting down Metals
+2022.06.09 09:11:22 INFO  Shut down connection with build server.
+2022.06.09 09:11:22 INFO  Shut down connection with build server.
+2022.06.09 09:12:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lukev\Documents\KnowRep\kr-practical\.metals\lsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.09 09:12:23 INFO  logging to file C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\metals.log

@@ -2,7 +2,7 @@ import Diagnosis._
 import Conflicts.tpf
 import TreeStruct.makeTreeWarmup
 import TreeStruct.countNodes
-import HittingTree.{makeHittingTree, gatherHittingSets}
+import HittingTree.{makeHittingTree, gatherHittingSets, getDiagnosis}
 import gapt.expr.stringInterpolationForExpressions
 
 object Main extends App {
@@ -20,8 +20,9 @@ object Main extends App {
   //println(HS_problem3)
   val Htree = makeHittingTree(HS_problem3, List())
   println(Htree)
-  println(gatherHittingSets(Htree))
-
+  val HS = gatherHittingSets(Htree)
+  println(HS)
+  println(getDiagnosis(HS))
   //println("Running diagnostics with the previous result assumed to be a broken component..")
   //val Some(result2) = tpf(problem2, List(fot"a1"))
   //println(result2)

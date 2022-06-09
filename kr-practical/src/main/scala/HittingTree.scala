@@ -29,4 +29,10 @@ object HittingTree {
       //case _ => List(List())
   }
 
+  def getDiagnosis(HS: List[List[FOLTerm]]): List[List[FOLTerm]] = HS match {
+      case List(List(x)) => List(List(x))
+      case HS => HS.sortBy(_.length) //TODO: fix this line
+      case _ => List(List())
+  }
+
 }
