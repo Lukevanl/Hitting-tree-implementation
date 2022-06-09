@@ -1,4 +1,5 @@
 import gapt.expr.formula.fol.FOLTerm
+import Conflicts.tp
 import gapt.expr.formula.Formula
 import gapt.expr.stringInterpolationForExpressions
 
@@ -34,15 +35,28 @@ object HittingTree {
       case _ => List(List())
   }
 
-  def generateConflictSets(sd: List[Formula], comp: List[FOLterm], obs: List[Formula]) = {
-    
+  def generateConflictSets(problem_number: Int): List[List[FOLTerm]] = problem_number match {
+    case 1 => List(List(fot"a1", fot"a2") , List(fot"a1", fot"o1"))
+    case 2 => List(List(fot"a1", fot"a2") , List(fot"a1", fot"o1"))
+    case 3 => List(List(fot"a1", fot"a2") , List(fot"a1", fot"o1"))
+
   }
 
-  def mainHTalgorithm(problem: (List[Formula], List[FOLTerm], List[Formula])): List[List[FOLTerm]] = {
-    val sd, comp, obs = problem
-    val CS = generateConflictSets(sd,comp,obs)  
-    val HTree = makeHittingTree(CS, [])
+  def mainHTalgorithm(problem: (List[Formula], List[FOLTerm], List[Formula]), problem_number: Int): List[List[FOLTerm]] = {
+    //val sd, comp, obs = problem()
+    val CS = generateConflictSets(problem_number)  
+    println("Conflict sets: ")
+    println(CS)
+    val HTree = makeHittingTree(CS, List())
+    println("Hitting tree: ")
+    println(HTree)
     val HS = gatherHittingSets(HTree)
-    val diag = getDiagnosis(HS)
-
+    println("Hitting sets: ")
+    println(HS)
+    val diagnosis = getDiagnosis(HS)
+    println("Minimal hitting sets:")
+    println(diagnosis)
+    diagnosis
+    
+  }
 }
