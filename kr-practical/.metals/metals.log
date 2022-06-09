@@ -24229,3 +24229,521 @@ something's wrong: no file:///C:/Users/lukev/Documents/KnowRep/kr-practical/src/
 2022.06.09 13:54:52 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala
 2022.06.09 18:54:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\lsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.06.09 18:54:15 INFO  logging to file C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\metals.log
+2022.06.09 18:54:15 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical' for client Visual Studio Code 1.67.2.
+2022.06.09 18:54:16 INFO  time: initialize in 0.63s
+2022.06.09 18:54:20 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.09 18:54:20 INFO  Attempting to connect to the build server...
+2022.06.09 18:54:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 18:54:21 INFO  Attempting to connect to the build server...
+2022.06.09 18:54:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\project\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 18:54:21 WARN  Scala instance jar C:\Users\youri\.sbt\boot\scala-2.12.15\lib\scala-library.jar doesn't exist!
+2022.06.09 18:54:21 WARN  Scala instance jar C:\Users\youri\.sbt\boot\scala-2.12.15\lib\scala-compiler.jar doesn't exist!
+2022.06.09 18:54:21 WARN  Scala instance jar C:\Users\youri\.sbt\boot\scala-2.12.15\lib\scala-reflect.jar doesn't exist!
+2022.06.09 18:54:21 WARN  Scala instance jar C:\Users\youri\.sbt\boot\scala-2.12.15\lib\scala-xml_2.12-1.0.6.jar doesn't exist!
+2022.06.09 18:54:21 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Failed to load project from C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\project\.bloop\kr-practical-build.json
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:437)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Failed to load project from C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\project\.bloop\kr-practical-build.json
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.09 18:54:22 WARN  no build target for: C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\Main.scala
+2022.06.09 18:54:25 INFO  no build target found for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.09 18:54:27 INFO  time: code lens generation in 4.27s
+2022.06.09 18:54:27 INFO  time: code lens generation in 4.27s
+2022.06.09 18:54:30 INFO  running 'C:\Program Files\Java\jdk-17.0.3.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\lukev\AppData\Local\Temp\metals12359791931035513751\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.09 18:55:36 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.3.1)
+2022.06.09 18:55:39 INFO  [info] loading settings for project kr-practical-build-build from metals.sbt ...
+2022.06.09 18:55:39 INFO  [info] loading project definition from C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\project\project
+2022.06.09 18:55:48 INFO  [info] loading settings for project kr-practical-build from metals.sbt ...
+2022.06.09 18:55:48 INFO  [info] loading project definition from C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\project
+2022.06.09 18:55:51 INFO  [success] Generated .bloop\kr-practical-build.json
+2022.06.09 18:55:51 INFO  [success] Total time: 3 s, completed 9 Jun 2022, 18:55:51
+2022.06.09 18:55:52 INFO  [info] loading settings for project kr-practical from build.sbt ...
+2022.06.09 18:55:52 INFO  [info] set current project to knowledge-representation (in build file:/C:/Users/lukev/Documents/KnowRep2/Hitting_tree_implementation/kr-practical/)
+2022.06.09 18:55:52 INFO  [warn] scala-library-2.13.8-sources.jar no longer exists at C:\Users\youri\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2022.06.09 18:55:52 INFO  [success] Generated .bloop\kr-practical.json
+2022.06.09 18:55:52 INFO  [success] Generated .bloop\kr-practical-test.json
+2022.06.09 18:55:52 INFO  [success] Total time: 0 s, completed 9 Jun 2022, 18:55:53
+2022.06.09 18:55:53 INFO  time: ran 'sbt bloopInstall' in 1m22s
+2022.06.09 18:55:53 INFO  Attempting to connect to the build server...
+2022.06.09 18:55:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 18:55:53 INFO  Attempting to connect to the build server...
+2022.06.09 18:55:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\project\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 18:55:53 INFO  time: Connected to build server in 91ms
+2022.06.09 18:55:53 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.09 18:55:58 INFO  time: indexed workspace in 5.6s
+Jun 09, 2022 6:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:849)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:319)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:320)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.09 18:56:01 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 7.924s)
+2022.06.09 18:56:01 INFO  compiling kr-practical (5 scala sources)
+2022.06.09 18:56:01 INFO  compiling kr-practical (5 scala sources)
+Jun 09, 2022 6:56:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.09 18:56:08 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 18:56:08 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 18:56:09 INFO  time: compiled kr-practical in 8.11s
+2022.06.09 18:56:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 18:56:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 18:56:15 INFO  Starting debug proxy for [Main]
+2022.06.09 18:56:18 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59321 .
+2022.06.09 18:56:18 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 18:56:20 INFO  Canceling debug proxy for [Main]
+2022.06.09 18:56:20 INFO  Closing debug server tcp://0.0.0.0:59316
+2022.06.09 18:56:37 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:56:39 INFO  time: compiled kr-practical in 2.55s
+2022.06.09 18:56:39 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:56:40 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:56:40 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:56:42 INFO  time: compiled kr-practical in 2.31s
+2022.06.09 18:56:50 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 56.844s)
+2022.06.09 18:56:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 18:56:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 18:56:50 INFO  Starting debug proxy for [Main]
+2022.06.09 18:56:51 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59348 .
+2022.06.09 18:56:51 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 18:57:10 INFO  Closing debug server tcp://0.0.0.0:59343
+2022.06.09 18:57:10 INFO  Canceling debug proxy for [Main]
+2022.06.09 18:57:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.09 18:57:22 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.09 18:57:22 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:57:24 INFO  time: indexed workspace in 2.06s
+2022.06.09 18:57:24 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:57:25 INFO  time: compiled kr-practical in 1.27s
+2022.06.09 18:57:27 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:57:27 INFO  time: compiled kr-practical in 84ms
+2022.06.09 18:57:28 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:57:28 INFO  time: compiled kr-practical in 0.17s
+2022.06.09 18:58:16 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:58:18 INFO  time: compiled kr-practical in 2.07s
+2022.06.09 18:58:21 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:58:21 INFO  time: compiled kr-practical in 0.17s
+Jun 09, 2022 6:58:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2597, count -1, length 3206
+2022.06.09 18:58:29 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:58:31 INFO  time: compiled kr-practical in 2s
+2022.06.09 18:58:33 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 1m 11.013s)
+2022.06.09 18:58:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 18:58:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 18:58:33 INFO  Starting debug proxy for [Main]
+2022.06.09 18:58:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59402 .
+2022.06.09 18:58:34 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 18:58:45 INFO  Canceling debug proxy for [Main]
+2022.06.09 18:58:45 INFO  Closing debug server tcp://0.0.0.0:59398
+2022.06.09 18:58:58 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:02 INFO  time: compiled kr-practical in 3.08s
+2022.06.09 18:59:06 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:06 INFO  time: compiled kr-practical in 0.14s
+2022.06.09 18:59:27 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:27 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 18:59:29 INFO  time: compiled kr-practical in 2s
+2022.06.09 18:59:38 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:38 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 18:59:40 INFO  time: compiled kr-practical in 1.91s
+2022.06.09 18:59:40 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:40 INFO  time: compiled kr-practical in 83ms
+2022.06.09 18:59:40 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:40 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:40 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:41 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:41 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:41 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 18:59:42 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:42 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:44 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:44 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:44 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:44 INFO  time: compiled kr-practical in 71ms
+2022.06.09 18:59:45 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:45 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:48 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:48 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:48 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:48 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:59:49 INFO  compiling kr-practical (1 scala source)
+2022.06.09 18:59:49 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 18:59:51 INFO  time: compiled kr-practical in 1.94s
+2022.06.09 19:00:00 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:00:00 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:00:02 INFO  time: compiled kr-practical in 1.88s
+2022.06.09 19:00:03 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 2m 41.239s)
+2022.06.09 19:00:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:00:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:00:03 INFO  Starting debug proxy for [Main]
+2022.06.09 19:00:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59642 .
+2022.06.09 19:00:05 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:00:18 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:00:18 INFO  time: compiled kr-practical in 74ms
+2022.06.09 19:00:20 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:00:20 INFO  time: compiled kr-practical in 75ms
+2022.06.09 19:00:24 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:00:24 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:00:26 INFO  time: compiled kr-practical in 1.92s
+2022.06.09 19:00:26 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:00:27 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\Main.scala
+2022.06.09 19:00:27 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\Main.scala
+2022.06.09 19:00:27 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\Main.scala
+2022.06.09 19:00:28 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:00:29 INFO  time: compiled kr-practical in 2.82s
+2022.06.09 19:00:34 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:00:34 INFO  Closing debug server tcp://0.0.0.0:59638
+2022.06.09 19:00:36 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 3m 13.926s)
+2022.06.09 19:00:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:00:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:00:36 INFO  Starting debug proxy for [Main]
+2022.06.09 19:00:37 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59671 .
+2022.06.09 19:00:37 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:00:40 ERROR Exception on recording event: com.sun.jdi.ObjectCollectedException.
+2022.06.09 19:01:11 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:01:11 INFO  time: compiled kr-practical in 0.14s
+2022.06.09 19:01:53 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:01:53 INFO  time: compiled kr-practical in 0.17s
+2022.06.09 19:01:54 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:01:54 INFO  time: compiled kr-practical in 0.13s
+2022.06.09 19:01:57 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:01:57 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 19:02:19 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:02:19 INFO  time: compiled kr-practical in 0.13s
+2022.06.09 19:02:28 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:02:28 INFO  time: compiled kr-practical in 0.14s
+2022.06.09 19:02:29 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:02:29 INFO  time: compiled kr-practical in 0.9s
+2022.06.09 19:02:39 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 5m 17.068s)
+2022.06.09 19:02:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:02:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:02:39 INFO  Starting debug proxy for [Main]
+2022.06.09 19:02:40 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59707 .
+2022.06.09 19:02:40 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:02:42 ERROR Exception on recording event: com.sun.jdi.ObjectCollectedException.
+2022.06.09 19:02:46 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:02:46 INFO  Closing debug server tcp://0.0.0.0:59667
+2022.06.09 19:02:46 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2022.06.09 19:02:54 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 5m 32.475s)
+2022.06.09 19:02:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:02:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:02:54 INFO  Starting debug proxy for [Main]
+2022.06.09 19:02:56 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59718 .
+2022.06.09 19:02:56 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:03:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:03:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:03:07 INFO  Starting debug proxy for [Main]
+2022.06.09 19:03:07 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:03:08 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59725 .
+2022.06.09 19:03:08 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:03:11 ERROR Exception on recording event: com.sun.jdi.ObjectCollectedException.
+2022.06.09 19:03:21 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:03:21 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:03:21 INFO  time: compiled kr-practical in 0.97s
+2022.06.09 19:03:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:03:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:03:26 INFO  Starting debug proxy for [Main]
+2022.06.09 19:03:26 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:03:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59736 .
+2022.06.09 19:03:28 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:03:30 ERROR Exception on recording event: com.sun.jdi.ObjectCollectedException.
+2022.06.09 19:03:39 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:03:40 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:03:40 INFO  time: compiled kr-practical in 1.15s
+2022.06.09 19:03:40 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:03:40 INFO  time: compiled kr-practical in 94ms
+2022.06.09 19:03:41 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:03:41 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:03:42 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:03:42 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:03:42 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:03:42 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:03:43 INFO  time: compiled kr-practical in 1.04s
+2022.06.09 19:03:44 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:03:44 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:03:45 INFO  time: compiled kr-practical in 1.03s
+2022.06.09 19:03:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:03:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:03:50 INFO  Starting debug proxy for [Main]
+2022.06.09 19:03:50 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:03:52 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59758 .
+2022.06.09 19:03:52 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:03:57 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:03:57 INFO  Closing debug server tcp://0.0.0.0:59754
+2022.06.09 19:04:28 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:04:28 INFO  time: compiled kr-practical in 0.13s
+2022.06.09 19:04:31 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:04:31 INFO  time: compiled kr-practical in 0.14s
+Jun 09, 2022 7:04:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 769
+2022.06.09 19:04:51 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:04:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:04:51 INFO  time: compiled kr-practical in 0.93s
+2022.06.09 19:04:55 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 7m 33.443s)
+2022.06.09 19:04:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:04:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:04:55 INFO  Starting debug proxy for [Main]
+2022.06.09 19:04:57 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59790 .
+2022.06.09 19:04:57 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:05:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:05:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:05:03 INFO  Starting debug proxy for [Main]
+2022.06.09 19:05:03 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:05:04 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59797 .
+2022.06.09 19:05:04 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:05:11 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:05:11 INFO  Closing debug server tcp://0.0.0.0:59793
+2022.06.09 19:05:17 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:05:17 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:05:17 INFO  time: compiled kr-practical in 0.94s
+2022.06.09 19:05:33 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:05:33 INFO  Closing debug server tcp://0.0.0.0:59786
+Jun 09, 2022 7:05:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:845)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:349)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:320)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.09 19:06:11 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 8m 49.171s)
+2022.06.09 19:06:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:06:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:06:11 INFO  Starting debug proxy for [Main]
+2022.06.09 19:06:13 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59824 .
+2022.06.09 19:06:13 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:06:18 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:06:18 INFO  Closing debug server tcp://0.0.0.0:59820
+2022.06.09 19:06:32 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:06:32 INFO  time: compiled kr-practical in 0.16s
+2022.06.09 19:06:34 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:06:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:06:35 INFO  time: compiled kr-practical in 1.08s
+2022.06.09 19:06:38 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 9m 16.04s)
+2022.06.09 19:06:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:06:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:06:38 INFO  Starting debug proxy for [Main]
+2022.06.09 19:06:40 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59845 .
+2022.06.09 19:06:40 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:06:42 ERROR Exception on recording event: com.sun.jdi.ObjectCollectedException.
+2022.06.09 19:06:43 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:06:42 INFO  Closing debug server tcp://0.0.0.0:59841
+2022.06.09 19:06:53 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:06:55 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:06:55 INFO  time: compiled kr-practical in 1.25s
+2022.06.09 19:06:58 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:06:58 INFO  time: compiled kr-practical in 0.11s
+2022.06.09 19:06:59 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:06:59 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:07:00 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:01 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:07:01 INFO  time: compiled kr-practical in 1.14s
+2022.06.09 19:07:04 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:04 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 19:07:06 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:06 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 19:07:08 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:08 INFO  time: compiled kr-practical in 0.17s
+2022.06.09 19:07:17 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:17 INFO  time: compiled kr-practical in 0.17s
+2022.06.09 19:07:19 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:20 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:07:20 INFO  time: compiled kr-practical in 1.18s
+2022.06.09 19:07:22 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:22 INFO  time: compiled kr-practical in 0.18s
+2022.06.09 19:07:29 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:29 INFO  time: compiled kr-practical in 0.13s
+2022.06.09 19:07:34 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:34 INFO  time: compiled kr-practical in 89ms
+2022.06.09 19:07:37 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:37 INFO  time: compiled kr-practical in 0.18s
+2022.06.09 19:07:40 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:40 INFO  time: compiled kr-practical in 0.21s
+2022.06.09 19:07:48 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:48 INFO  time: compiled kr-practical in 0.16s
+2022.06.09 19:07:53 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:53 INFO  time: compiled kr-practical in 88ms
+2022.06.09 19:07:59 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:07:59 INFO  time: compiled kr-practical in 0.94s
+2022.06.09 19:08:08 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:08:08 INFO  time: compiled kr-practical in 0.99s
+2022.06.09 19:08:10 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:08:10 INFO  time: compiled kr-practical in 84ms
+2022.06.09 19:08:13 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:08:13 INFO  time: compiled kr-practical in 87ms
+2022.06.09 19:08:18 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:08:19 INFO  time: compiled kr-practical in 1.15s
+2022.06.09 19:08:35 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:08:35 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 19:09:42 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:09:42 INFO  time: compiled kr-practical in 0.21s
+2022.06.09 19:10:11 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:10:11 INFO  time: compiled kr-practical in 0.19s
+2022.06.09 19:10:32 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:10:32 INFO  time: compiled kr-practical in 0.18s
+2022.06.09 19:10:35 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:10:35 INFO  time: compiled kr-practical in 0.17s
+2022.06.09 19:10:40 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:10:40 INFO  time: compiled kr-practical in 0.19s
+2022.06.09 19:10:57 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:10:57 INFO  time: compiled kr-practical in 0.16s
+2022.06.09 19:10:59 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:10:59 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 19:11:05 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:11:05 INFO  time: compiled kr-practical in 0.19s
+2022.06.09 19:11:13 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:11:14 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:11:14 INFO  time: compiled kr-practical in 1.24s
+2022.06.09 19:13:56 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:13:57 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:13:57 INFO  time: compiled kr-practical in 1.28s
+2022.06.09 19:14:04 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:14:04 INFO  time: compiled kr-practical in 0.18s
+2022.06.09 19:14:05 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:05 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:19 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:19 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:20 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:14:20 INFO  time: compiled kr-practical in 0.16s
+2022.06.09 19:14:20 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:20 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:33 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:44 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:53 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:54 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:54 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:55 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:14:55 INFO  time: compiled kr-practical in 0.14s
+2022.06.09 19:14:55 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:55 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:56 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:57 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:57 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:59 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:14:59 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:00 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:15:00 INFO  time: compiled kr-practical in 83ms
+2022.06.09 19:15:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:02 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:01 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:03 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:15:03 INFO  time: compiled kr-practical in 0.13s
+2022.06.09 19:15:03 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:03 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:23 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:49 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:49 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:50 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:50 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:50 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:15:50 INFO  time: compiled kr-practical in 0.16s
+2022.06.09 19:15:51 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:51 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:52 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:52 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:52 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 19:15:53 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:15:54 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:15:54 INFO  time: compiled kr-practical in 1.13s
+2022.06.09 19:16:09 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 18m 46.851s)
+2022.06.09 19:16:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:16:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:16:09 INFO  Starting debug proxy for [Main]
+2022.06.09 19:16:11 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60010 .
+2022.06.09 19:16:11 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:16:13 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:16:13 INFO  Closing debug server tcp://0.0.0.0:60007
+2022.06.09 19:16:25 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:16:25 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:16:25 INFO  time: compiled kr-practical in 0.86s
+2022.06.09 19:16:26 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 19m 4.619s)
+2022.06.09 19:16:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:16:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:16:26 INFO  Starting debug proxy for [Main]
+2022.06.09 19:16:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60023 .
+2022.06.09 19:16:28 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:16:30 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:16:30 INFO  Closing debug server tcp://0.0.0.0:60019
+2022.06.09 19:16:38 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:16:38 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:16:38 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 19m 17.125s)
+2022.06.09 19:16:38 INFO  compiling kr-practical (1 scala source)
+2022.06.09 19:16:38 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2022.06.09 19:16:38 INFO  time: compiled kr-practical in 0.17s
+2022.06.09 19:16:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 19:16:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 19:16:39 INFO  Starting debug proxy for [Main]
+2022.06.09 19:16:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60037 .
+2022.06.09 19:16:41 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 19:16:43 INFO  Canceling debug proxy for [Main]
+2022.06.09 19:16:43 INFO  Closing debug server tcp://0.0.0.0:60032
