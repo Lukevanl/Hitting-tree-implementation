@@ -23000,3 +23000,97 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$:
 2022.06.09 11:25:10 INFO  Closing debug server tcp://0.0.0.0:49962
 2022.06.09 11:25:33 INFO  compiling kr-practical (1 scala source)
 2022.06.09 11:25:33 INFO  time: compiled kr-practical in 0.52s
+2022.06.09 11:32:05 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:32:05 INFO  time: compiled kr-practical in 71ms
+2022.06.09 11:32:08 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:32:08 INFO  time: compiled kr-practical in 0.42s
+2022.06.09 11:32:14 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:32:14 INFO  time: compiled kr-practical in 0.41s
+2022.06.09 11:32:24 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:32:24 INFO  time: compiled kr-practical in 68ms
+2022.06.09 11:32:55 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:32:55 INFO  time: compiled kr-practical in 74ms
+2022.06.09 11:32:58 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:32:58 INFO  time: compiled kr-practical in 71ms
+2022.06.09 11:33:00 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:33:00 INFO  time: compiled kr-practical in 69ms
+2022.06.09 11:33:05 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:33:05 INFO  time: compiled kr-practical in 70ms
+2022.06.09 11:33:10 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:33:10 INFO  time: compiled kr-practical in 70ms
+2022.06.09 11:33:19 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:33:19 INFO  time: compiled kr-practical in 68ms
+2022.06.09 11:33:23 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:33:23 INFO  time: compiled kr-practical in 0.51s
+2022.06.09 11:33:23 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:33:23 INFO  time: compiled kr-practical in 0.11s
+2022.06.09 11:33:32 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 2h 21m 7.458s)
+2022.06.09 11:33:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 11:33:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 11:33:32 INFO  Starting debug proxy for [Main]
+2022.06.09 11:33:33 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50063 .
+2022.06.09 11:33:33 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 11:33:34 INFO  Canceling debug proxy for [Main]
+2022.06.09 11:33:33 INFO  Closing debug server tcp://0.0.0.0:50059
+2022.06.09 11:34:13 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:13 INFO  time: compiled kr-practical in 43ms
+2022.06.09 11:34:16 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:16 INFO  time: compiled kr-practical in 0.42s
+2022.06.09 11:34:19 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:19 INFO  time: compiled kr-practical in 0.41s
+2022.06.09 11:34:22 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:22 INFO  time: compiled kr-practical in 0.4s
+2022.06.09 11:34:26 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:26 INFO  time: compiled kr-practical in 35ms
+2022.06.09 11:34:28 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:28 INFO  time: compiled kr-practical in 0.4s
+2022.06.09 11:34:35 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:35 INFO  time: compiled kr-practical in 0.39s
+2022.06.09 11:34:43 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:43 INFO  time: compiled kr-practical in 0.39s
+2022.06.09 11:34:55 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:34:55 INFO  time: compiled kr-practical in 0.59s
+2022.06.09 11:35:04 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:04 INFO  time: compiled kr-practical in 0.41s
+2022.06.09 11:35:07 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:07 INFO  time: compiled kr-practical in 0.39s
+2022.06.09 11:35:08 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:08 INFO  time: compiled kr-practical in 0.15s
+2022.06.09 11:35:10 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:10 INFO  time: compiled kr-practical in 61ms
+2022.06.09 11:35:11 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:11 INFO  time: compiled kr-practical in 0.42s
+2022.06.09 11:35:14 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 2h 22m 49.293s)
+2022.06.09 11:35:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.09 11:35:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.09 11:35:14 INFO  Starting debug proxy for [Main]
+2022.06.09 11:35:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50127 .
+2022.06.09 11:35:15 INFO  Attaching to debuggee VM succeeded.
+2022.06.09 11:35:16 INFO  Canceling debug proxy for [Main]
+2022.06.09 11:35:15 INFO  Closing debug server tcp://0.0.0.0:50123
+2022.06.09 11:35:27 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:27 INFO  time: compiled kr-practical in 0.41s
+2022.06.09 11:35:36 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:36 INFO  time: compiled kr-practical in 0.5s
+2022.06.09 11:35:46 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:46 INFO  time: compiled kr-practical in 0.49s
+2022.06.09 11:35:55 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:35:55 INFO  time: compiled kr-practical in 0.53s
+2022.06.09 11:36:11 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:36:11 INFO  time: compiled kr-practical in 0.5s
+2022.06.09 11:36:14 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:36:14 INFO  time: compiled kr-practical in 0.48s
+2022.06.09 11:36:21 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:36:21 INFO  time: compiled kr-practical in 0.68s
+2022.06.09 11:36:26 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:36:26 INFO  time: compiled kr-practical in 0.49s
+2022.06.09 11:36:29 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:36:29 INFO  time: compiled kr-practical in 0.48s
+2022.06.09 11:37:18 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:37:18 INFO  time: compiled kr-practical in 0.49s
+2022.06.09 11:37:36 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:37:36 INFO  time: compiled kr-practical in 0.51s
+2022.06.09 11:37:41 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:37:41 INFO  time: compiled kr-practical in 0.49s
+2022.06.09 11:37:50 INFO  compiling kr-practical (1 scala source)
+2022.06.09 11:37:50 INFO  time: compiled kr-practical in 0.49s

@@ -30,7 +30,7 @@ object HittingTree {
   //Remove supersets from list of hitting sets
   def getDiagnosis(HS: List[List[FOLTerm]]): List[List[FOLTerm]] = HS match {
       case List(List(x)) => List(List(x))
-      case HS => for (set1 <- HS; if !(HS.exists(x => {x.forall(set1.contains(_)) && (x.length < set1.length)}))) yield set1
+      case HS => for (set1 <- HS; if !(HS.exists(set2 => {set2.forall(set1.contains(_)) && (set2.length < set1.length)}))) yield set1
       case _ => List(List())
   }
 
