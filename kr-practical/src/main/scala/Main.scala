@@ -22,6 +22,7 @@ object Main extends App {
   println(Htree)
   val HS = gatherHittingSets(Htree)
   println(HS)
+  println("\n\n\nDiagnosis:")
   println(getDiagnosis(HS))
   //println("Running diagnostics with the previous result assumed to be a broken component..")
   //val Some(result2) = tpf(problem2, List(fot"a1"))
