@@ -2,27 +2,27 @@
     "version": "1.4.0",
     "project": {
         "name": "kr-practical",
-        "directory": "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical",
-        "workspaceDir": "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical",
+        "directory": "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical",
+        "workspaceDir": "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical",
         "sources": [
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\src\\main\\scala",
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\src\\main\\scala-2.13",
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\src\\main\\scala-2",
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\src\\main\\java",
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\target\\scala-2.13\\src_managed\\main"
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\src\\main\\scala",
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\src\\main\\scala-2.13",
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\src\\main\\scala-2",
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\src\\main\\java",
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\target\\scala-2.13\\src_managed\\main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\lib\\gapt-2.15.2.jar",
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\lib\\gapt-2.15.2.jar",
             "C:\\Users\\lukev\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar"
         ],
-        "out": "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\.bloop\\kr-practical",
-        "classesDir": "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\.bloop\\kr-practical\\scala-2.13\\classes",
+        "out": "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\.bloop\\kr-practical",
+        "classesDir": "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\.bloop\\kr-practical\\scala-2.13\\classes",
         "resources": [
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\src\\main\\resources",
-            "C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical\\target\\scala-2.13\\resource_managed\\main"
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\src\\main\\resources",
+            "C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical\\target\\scala-2.13\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -101,7 +101,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-17.0.3.1",
                 "options": [
-                    "-Duser.dir=C:\\Users\\lukev\\Documents\\KnowRep\\kr-practical"
+                    "-Duser.dir=C:\\Users\\lukev\\Documents\\KnowRep2\\Hitting_tree_implementation\\kr-practical"
                 ]
             },
             "mainClass": [

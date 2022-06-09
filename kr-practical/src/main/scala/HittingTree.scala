@@ -2,6 +2,8 @@ import gapt.expr.formula.fol.FOLTerm
 import Conflicts.tp
 import gapt.expr.formula.Formula
 import gapt.expr.stringInterpolationForExpressions
+import scala.util.control.Breaks._
+
 
 case class HittingTree[+T](value: List[FOLTerm], children: List[HittingTree[T]]) {
   def this(value: List[FOLTerm]) = this(value, List())
@@ -36,15 +38,24 @@ object HittingTree {
   }
 
   def generateConflictSets(sd: List[Formula],comp: List[FOLTerm],obs: List[Formula]): List[List[FOLTerm]]= {
-    val AllConflictSets = List()
-    try {
-      val cs = tp(sd,comp,obs,List()).get.toList
-      val AllConflictSet =  AllConflictSets :+ cs
-      List(cs)
+    var AllConflictSets = List(tp(sd,comp,obs,List()).get.toList)
+    val notError = true
+    breakable {
+    while(notError) {
+      try {
+        val cs: List[FOLTerm] = tp(sd,comp,obs,AllConflictSets.flatten).get.toList
+        println(AllConflictSets)
+        AllConflictSets = AllConflictSets ++ List(cs)
+      }
+    catch{
+      case _: Throwable =>
+      val notError = false
+      break
     }
-  catch{
-    case e:MatchError => List()
-  }
+      }
+    }
+      return AllConflictSets
+    
   }
 
 

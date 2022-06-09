@@ -24227,3 +24227,5 @@ something's wrong: no file:///C:/Users/lukev/Documents/KnowRep/kr-practical/src/
 2022.06.09 13:53:41 INFO  time: compiled kr-practical in 80ms
 2022.06.09 13:53:41 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala
 2022.06.09 13:54:52 WARN  Could not load snapshot text for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala
+2022.06.09 18:54:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\lsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.09 18:54:15 INFO  logging to file C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\metals.log
