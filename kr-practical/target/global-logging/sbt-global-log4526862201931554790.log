@@ -1,0 +1,190 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\youri\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\youri\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 16.0.1)
+[debug]       Load.loadUnit: plugins took 92.7172ms
+[debug]       Load.loadUnit: defsScala took 0.3848ms
+[debug] [Loading] Scanning directory C:\Users\youri\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\youri\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.8905 ms
+[debug]           Load.resolveProject(global-plugins) took 52.0732ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\youri\.sbt\1.0\plugins, plugins: List(<none>))) took 95.8054ms
+[debug] [Loading] Done in C:\Users\youri\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 121.7268ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4065ms
+[debug]     Load.loadUnit(file:/C:/Users/youri/.sbt/1.0/plugins/, ...) took 230.727ms
+[debug]   Load.apply: load took 468.424ms
+[debug]   Load.apply: resolveProjects took 7.4587ms
+[debug]   Load.apply: finalTransforms took 65.4825ms
+[debug]   Load.apply: config.delegates took 6.4669ms
+[debug]   Load.apply: Def.make(settings)... took 443.8048ms
+[debug]   Load.apply: structureIndex took 79.1927ms
+[debug]   Load.apply: mkStreams took 1.1349ms
+[info] loading global plugins from C:\Users\youri\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8926.6556ms
+[debug]                 Load.loadUnit: plugins took 49.7557ms
+[debug]                 Load.loadUnit: defsScala took 0.0096ms
+[debug] [Loading] Scanning directory C:\Users\youri\Hitting_tree_implementation\kr-practical\project\project
+[debug]                   Load.loadUnit: mkEval took 6.6416ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\youri\Hitting_tree_implementation\kr-practical\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.9291 ms
+[info] loading settings for project kr-practical-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(kr-practical-build-build) took 9.9697ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id kr-practical-build-build, base: C:\Users\youri\Hitting_tree_implementation\kr-practical\project\project, plugins: List(<none>))) took 22.3614ms
+[debug] [Loading] Done in C:\Users\youri\Hitting_tree_implementation\kr-practical\project\project, returning: (kr-practical-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 3167.1834ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 26.0261ms
+[debug]               Load.loadUnit(file:/C:/Users/youri/Hitting_tree_implementation/kr-practical/project/project/, ...) took 3245.1371ms
+[debug]             Load.apply: load took 3248.7455ms
+[debug]             Load.apply: resolveProjects took 0.4318ms
+[debug]             Load.apply: finalTransforms took 20.1711ms
+[debug]             Load.apply: config.delegates took 0.3963ms
+[debug]             Load.apply: Def.make(settings)... took 155.141ms
+[debug]             Load.apply: structureIndex took 62.3019ms
+[debug]             Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\youri\Hitting_tree_implementation\kr-practical\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 4539.8736ms
+[debug]           Load.loadUnit: defsScala took 0.0091ms
+[debug] [Loading] Scanning directory C:\Users\youri\Hitting_tree_implementation\kr-practical\project
+[debug]             Load.loadUnit: mkEval took 0.8585ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\youri\Hitting_tree_implementation\kr-practical\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.681 ms
+[info] loading settings for project kr-practical-build from metals.sbt,idea.sbt ...
+[debug]               Load.resolveProject(kr-practical-build) took 42.8614ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kr-practical-build, base: C:\Users\youri\Hitting_tree_implementation\kr-practical\project, plugins: List(<none>))) took 47.8532ms
+[debug] [Loading] Done in C:\Users\youri\Hitting_tree_implementation\kr-practical\project, returning: (kr-practical-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3760.5889ms
+[debug]           Load.loadUnit: cleanEvalClasses took 20.1117ms
+[debug]         Load.loadUnit(file:/C:/Users/youri/Hitting_tree_implementation/kr-practical/project/, ...) took 8322.7632ms
+[debug]       Load.apply: load took 8328.3751ms
+[debug]       Load.apply: resolveProjects took 0.2217ms
+[debug]       Load.apply: finalTransforms took 40.6507ms
+[debug]       Load.apply: config.delegates took 0.534ms
+[debug]       Load.apply: Def.make(settings)... took 194.9576ms
+[debug]       Load.apply: structureIndex took 62.0034ms
+[debug]       Load.apply: mkStreams took 0.0073ms
+[info] loading project definition from C:\Users\youri\Hitting_tree_implementation\kr-practical\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[success] Generated .bloop\kr-practical-build.json
+[success] Total time: 9 s, completed 8 jun. 2022 16:32:49
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 18654.5747ms
+[debug]     Load.loadUnit: defsScala took 0.0075ms
+[debug] [Loading] Scanning directory C:\Users\youri\Hitting_tree_implementation\kr-practical
+[debug]       Load.loadUnit: mkEval took 0.8612ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\youri\Hitting_tree_implementation\kr-practical, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.2908 ms
+[info] loading settings for project kr-practical from build.sbt ...
+[debug]         Load.resolveProject(kr-practical) took 74.0245ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id kr-practical, base: C:\Users\youri\Hitting_tree_implementation\kr-practical, plugins: List(<none>))) took 79.2793ms
+[debug] [Loading] Done in C:\Users\youri\Hitting_tree_implementation\kr-practical, returning: (kr-practical)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1696.3403ms
+[debug]     Load.loadUnit: cleanEvalClasses took 52.8358ms
+[debug]   Load.loadUnit(file:/C:/Users/youri/Hitting_tree_implementation/kr-practical/, ...) took 20405.4865ms
+[debug] Load.apply: load took 20409.391ms
+[debug] Load.apply: resolveProjects took 0.167ms
+[debug] Load.apply: finalTransforms took 36.1067ms
+[debug] Load.apply: config.delegates took 0.5219ms
+[debug] Load.apply: Def.make(settings)... took 108.9985ms
+[debug] Load.apply: structureIndex took 41.901ms
+[debug] Load.apply: mkStreams took 0.0031ms
+[info] set current project to knowledge-representation (in build file:/C:/Users/youri/Hitting_tree_implementation/kr-practical/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 58450 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 58450, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to knowledge-representation (in build file:/C:/Users/youri/Hitting_tree_implementation/kr-practical/)
+[debug] > Exec(idea-shell, None, None)

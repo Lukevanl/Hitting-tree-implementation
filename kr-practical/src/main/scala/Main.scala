@@ -16,8 +16,12 @@ object Main extends App {
   //println("Running diagnostics with the previous result assumed to be a broken component..")
   //val Some(result2) = tpf(problem2, List(fot"a1"))
   //println(result2)
-  val diagnosis = mainHTalgorithm(problem3, 3)
-  println(diagnosis)
+  val diagnosis = try {
+    mainHTalgorithm(problem3)
+  } catch {
+    case e:MatchError => println("There are no more conflict sets.")
+  }
+
 
 
 

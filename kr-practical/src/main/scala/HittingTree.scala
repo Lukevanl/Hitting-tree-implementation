@@ -35,16 +35,22 @@ object HittingTree {
       case _ => List(List())
   }
 
-  def generateConflictSets(problem_number: Int): List[List[FOLTerm]] = problem_number match {
-    case 1 => List(List(fot"a1", fot"a2") , List(fot"a1", fot"o1"))
-    case 2 => List(List(fot"a1", fot"a2") , List(fot"a1", fot"o1"))
-    case 3 => List(List(fot"a1", fot"a2") , List(fot"a1", fot"o1"))
-
+  def generateConflictSets(sd: List[Formula],comp: List[FOLTerm],obs: List[Formula]): List[List[FOLTerm]]= {
+    val AllConflictSets = List()
+    try {
+      val cs = tp(sd,comp,obs,List()).get.toList
+      val AllConflictSet =  AllConflictSets :+ cs
+      List(cs)
+    }
+  catch{
+    case e:MatchError => List()
+  }
   }
 
-  def mainHTalgorithm(problem: (List[Formula], List[FOLTerm], List[Formula]), problem_number: Int): List[List[FOLTerm]] = {
-    //val sd, comp, obs = problem()
-    val CS = generateConflictSets(problem_number)  
+
+  def mainHTalgorithm(problem: (List[Formula], List[FOLTerm], List[Formula])): List[List[FOLTerm]] = {
+    val (sd,comp,obs) = problem
+    val CS = generateConflictSets(sd,comp,obs)
     println("Conflict sets: ")
     println(CS)
     val HTree = makeHittingTree(CS, List())
