@@ -34,4 +34,15 @@ object HittingTree {
       case _ => List(List())
   }
 
+  def generateConflictSets(sd: List[Formula], comp: List[FOLterm], obs: List[Formula]) = {
+    
+  }
+
+  def mainHTalgorithm(problem: (List[Formula], List[FOLTerm], List[Formula])): List[List[FOLTerm]] = {
+    val sd, comp, obs = problem
+    val CS = generateConflictSets(sd,comp,obs)  
+    val HTree = makeHittingTree(CS, [])
+    val HS = gatherHittingSets(HTree)
+    val diag = getDiagnosis(HS)
+
 }
