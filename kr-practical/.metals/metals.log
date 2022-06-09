@@ -21417,3 +21417,440 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$:
 2022.06.06 21:34:36 ERROR 	at Main.main(Main.scala)
 2022.06.06 21:34:36 INFO  Closing debug server tcp://0.0.0.0:60791
 2022.06.06 21:34:36 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:35:03 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 9m 57.836s)
+2022.06.06 21:35:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:35:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:35:03 INFO  Starting debug proxy for [Main]
+2022.06.06 21:35:04 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60810 .
+2022.06.06 21:35:04 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:35:05 ERROR Exception in thread "main" scala.MatchError: List(List(List(a1)), List(List(a1, o1))) (of class scala.collection.immutable.$colon$colon)
+2022.06.06 21:35:05 ERROR 	at HittingTree$.ThreeDimConcat(HittingTree.scala:25)
+2022.06.06 21:35:05 ERROR 	at HittingTree$.gatherHittingSets(HittingTree.scala:22)
+2022.06.06 21:35:05 ERROR 	at HittingTree$.$anonfun$gatherHittingSets$1(HittingTree.scala:22)
+2022.06.06 21:35:05 ERROR 	at scala.collection.immutable.List.map(List.scala:222)
+2022.06.06 21:35:05 ERROR 	at HittingTree$.gatherHittingSets(HittingTree.scala:22)
+2022.06.06 21:35:05 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:23)
+2022.06.06 21:35:05 ERROR 	at Main$delayedInit$body.apply(Main.scala:8)
+2022.06.06 21:35:05 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.06.06 21:35:05 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.06.06 21:35:05 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.06.06 21:35:05 ERROR 	at scala.App.$anonfun$main$1(App.scala:75)
+2022.06.06 21:35:05 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:75)
+2022.06.06 21:35:05 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+2022.06.06 21:35:05 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+2022.06.06 21:35:05 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:904)
+2022.06.06 21:35:05 ERROR 	at scala.App.main(App.scala:75)
+2022.06.06 21:35:05 ERROR 	at scala.App.main$(App.scala:73)
+2022.06.06 21:35:05 ERROR 	at Main$.main(Main.scala:8)
+2022.06.06 21:35:05 ERROR 	at Main.main(Main.scala)
+2022.06.06 21:35:05 INFO  Closing debug server tcp://0.0.0.0:60806
+2022.06.06 21:35:05 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:36:20 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:36:20 INFO  time: compiled kr-practical in 35ms
+2022.06.06 21:36:21 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:36:21 INFO  time: compiled kr-practical in 76ms
+2022.06.06 21:36:33 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:36:33 INFO  time: compiled kr-practical in 39ms
+2022.06.06 21:36:52 ERROR searching for `_empty_/HittingTree.gatherHittingSets().` failed
+java.nio.file.NoSuchFileException: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.06 21:36:55 ERROR searching for `_empty_/HittingTree.ThreeDimConcat().` failed
+java.nio.file.NoSuchFileException: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.06 21:38:11 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:38:11 INFO  time: compiled kr-practical in 0.52s
+2022.06.06 21:38:14 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:38:14 INFO  time: compiled kr-practical in 0.55s
+2022.06.06 21:38:15 ERROR searching for `_empty_/HittingTree.ThreeDimConcat().(list)` failed
+java.nio.file.NoSuchFileException: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.06 21:38:36 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:38:36 INFO  time: compiled kr-practical in 64ms
+2022.06.06 21:38:37 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:38:37 INFO  time: compiled kr-practical in 57ms
+2022.06.06 21:38:39 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:38:39 INFO  time: compiled kr-practical in 58ms
+2022.06.06 21:38:41 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:38:41 INFO  time: compiled kr-practical in 0.6s
+2022.06.06 21:38:44 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 13m 38.782s)
+2022.06.06 21:38:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:38:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:38:44 INFO  Starting debug proxy for [Main]
+2022.06.06 21:38:45 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61167 .
+2022.06.06 21:38:45 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:38:46 ERROR Exception in thread "main" scala.MatchError: List(List(List(a1)), List(List(a1, o1))) (of class scala.collection.immutable.$colon$colon)
+2022.06.06 21:38:46 ERROR 	at HittingTree$.ThreeDimConcat(HittingTree.scala:25)
+2022.06.06 21:38:46 ERROR 	at HittingTree$.gatherHittingSets(HittingTree.scala:22)
+2022.06.06 21:38:46 ERROR 	at HittingTree$.$anonfun$gatherHittingSets$1(HittingTree.scala:22)
+2022.06.06 21:38:46 ERROR 	at scala.collection.immutable.List.map(List.scala:222)
+2022.06.06 21:38:46 ERROR 	at HittingTree$.gatherHittingSets(HittingTree.scala:22)
+2022.06.06 21:38:46 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:23)
+2022.06.06 21:38:46 ERROR 	at Main$delayedInit$body.apply(Main.scala:8)
+2022.06.06 21:38:46 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.06.06 21:38:46 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.06.06 21:38:46 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.06.06 21:38:46 ERROR 	at scala.App.$anonfun$main$1(App.scala:75)
+2022.06.06 21:38:46 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:75)
+2022.06.06 21:38:46 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+2022.06.06 21:38:46 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+2022.06.06 21:38:46 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:904)
+2022.06.06 21:38:46 ERROR 	at scala.App.main(App.scala:75)
+2022.06.06 21:38:46 ERROR 	at scala.App.main$(App.scala:73)
+2022.06.06 21:38:46 ERROR 	at Main$.main(Main.scala:8)
+2022.06.06 21:38:46 ERROR 	at Main.main(Main.scala)
+2022.06.06 21:38:46 INFO  Closing debug server tcp://0.0.0.0:61163
+2022.06.06 21:38:46 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:39:15 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:39:15 INFO  time: compiled kr-practical in 67ms
+2022.06.06 21:39:16 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:39:16 INFO  time: compiled kr-practical in 59ms
+2022.06.06 21:39:18 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:39:18 INFO  time: compiled kr-practical in 58ms
+2022.06.06 21:39:20 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:39:20 INFO  time: compiled kr-practical in 0.51s
+2022.06.06 21:39:59 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:39:59 INFO  time: compiled kr-practical in 59ms
+2022.06.06 21:40:02 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:40:02 INFO  time: compiled kr-practical in 67ms
+2022.06.06 21:40:10 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:40:10 INFO  time: compiled kr-practical in 0.52s
+2022.06.06 21:40:14 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 15m 9.421s)
+2022.06.06 21:40:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:40:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:40:14 INFO  Starting debug proxy for [Main]
+2022.06.06 21:40:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57121 .
+2022.06.06 21:40:15 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:40:16 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:40:15 INFO  Closing debug server tcp://0.0.0.0:57117
+2022.06.06 21:40:59 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:40:59 INFO  time: compiled kr-practical in 0.53s
+2022.06.06 21:41:02 ERROR searching for `_empty_/HittingTree.gatherHittingSets().(hitting_tree)` failed
+java.nio.file.NoSuchFileException: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:103)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.06 21:41:05 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:41:05 INFO  time: compiled kr-practical in 57ms
+2022.06.06 21:41:08 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:41:08 INFO  time: compiled kr-practical in 63ms
+2022.06.06 21:41:19 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:41:19 INFO  time: compiled kr-practical in 0.52s
+2022.06.06 21:41:32 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 16m 27.317s)
+2022.06.06 21:41:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:41:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:41:32 INFO  Starting debug proxy for [Main]
+2022.06.06 21:41:33 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57146 .
+2022.06.06 21:41:33 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:41:34 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:41:34 INFO  Closing debug server tcp://0.0.0.0:57142
+2022.06.06 21:42:09 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:42:09 INFO  time: compiled kr-practical in 61ms
+2022.06.06 21:42:36 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:42:36 INFO  time: compiled kr-practical in 0.76s
+2022.06.06 21:42:45 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:42:45 INFO  time: compiled kr-practical in 61ms
+2022.06.06 21:42:47 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:42:47 INFO  time: compiled kr-practical in 71ms
+2022.06.06 21:43:08 ERROR searching for `_empty_/HittingTree.gatherHittingSets().(hitting_tree)` failed
+java.nio.file.NoSuchFileException: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:172)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:171)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:258)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:257)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:256)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$completionItemResolve$1(MetalsLanguageServer.scala:1630)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.completionItemResolve(MetalsLanguageServer.scala:1628)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.06 21:43:09 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:43:09 INFO  time: compiled kr-practical in 62ms
+2022.06.06 21:43:14 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:43:14 INFO  time: compiled kr-practical in 58ms
+2022.06.06 21:43:22 ERROR searching for `_empty_/HittingTree.ThreeDimConcat().` failed
+java.nio.file.NoSuchFileException: C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\HittingTree.scala.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.06 21:43:55 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:43:55 INFO  time: compiled kr-practical in 58ms
+2022.06.06 21:43:58 INFO  compiling kr-practical (1 scala source)
+2022.06.06 21:43:58 INFO  time: compiled kr-practical in 0.54s
+Jun 06, 2022 9:44:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:845)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:349)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:320)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1863)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.06 21:44:05 INFO  Deduplicating compilation of kr-practical from bsp client 'Metals 0.11.6' (since 29h 18m 59.98s)
+2022.06.06 21:44:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-server.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.06.06 21:44:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\dap-client.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.06.06 21:44:05 INFO  Starting debug proxy for [Main]
+2022.06.06 21:44:06 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57336 .
+2022.06.06 21:44:06 INFO  Attaching to debuggee VM succeeded.
+2022.06.06 21:44:07 INFO  Canceling debug proxy for [Main]
+2022.06.06 21:44:06 INFO  Closing debug server tcp://0.0.0.0:57332
+2022.06.06 21:53:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lukev\Documents\KnowRep\kr-practical\.metals\lsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.06 21:53:10 INFO  logging to file C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\metals.log
+2022.06.06 21:53:10 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\lukev\Documents\KnowRep\kr-practical' for client Visual Studio Code 1.67.2.
+2022.06.06 21:53:10 INFO  time: initialize in 0.47s
+2022.06.06 21:53:14 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.06 21:53:14 INFO  Attempting to connect to the build server...
+2022.06.06 21:53:14 INFO  skipping build import with status 'Installed'
+2022.06.06 21:53:17 INFO  no build target found for C:\Users\lukev\Documents\KnowRep\kr-practical\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.06 21:53:19 INFO  time: code lens generation in 2.92s
+2022.06.06 21:53:19 INFO  time: code lens generation in 2.92s
+2022.06.06 21:53:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.06 21:53:24 INFO  Attempting to connect to the build server...
+2022.06.06 21:53:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lukev\Documents\KnowRep\kr-practical\project\.metals\bsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.06 21:53:24 INFO  time: Connected to build server in 10s
+2022.06.06 21:53:24 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.06 21:53:27 INFO  time: indexed workspace in 2.39s
+2022.06.06 21:53:28 INFO  compiling kr-practical (5 scala sources)
+2022.06.06 21:53:34 INFO  time: compiled kr-practical in 5.65s
