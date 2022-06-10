@@ -43,7 +43,7 @@ object HittingTree {
   /**
    * Create tree from list of conflict sets (all_cs) where you keep visited components in left of tuple 
    * and children on the right
-   * @param all_cs All conflict sets previosuly generated
+   * @param all_cs All conflict sets previously generated
    * @param visited_comp Keeps track of the visited components in the recursive call
    * @return Recursive HittingTree with all the visited components and children for each node
    */
@@ -98,10 +98,10 @@ object HittingTree {
     val (sd,comp,obs) = problem
     val CS = generateConflictSets(sd,comp,obs)
     println("Conflict sets: ")
-    println(CS)
+    println(CS + "\n")
     val HTree = makeHittingTree(CS, List())
     println("Hitting tree: ")
-    println(HTree)
+    println(HTree + "\n")
     val HS = gatherHittingSets(HTree)
     println("Hitting sets: ")
     println(HS)
