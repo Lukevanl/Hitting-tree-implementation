@@ -24747,3 +24747,5 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$:
 2022.06.09 19:16:41 INFO  Attaching to debuggee VM succeeded.
 2022.06.09 19:16:43 INFO  Canceling debug proxy for [Main]
 2022.06.09 19:16:43 INFO  Closing debug server tcp://0.0.0.0:60032
+2022.06.13 20:53:08 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\lsp.trace.json or C:\Users\lukev\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.13 20:53:10 INFO  logging to file C:\Users\lukev\Documents\KnowRep2\Hitting_tree_implementation\kr-practical\.metals\metals.log
