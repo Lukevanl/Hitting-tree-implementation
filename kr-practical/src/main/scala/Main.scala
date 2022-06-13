@@ -9,7 +9,7 @@ object Main extends App {
   /**
    * Warmup exercise:
 */
-    val tree = makeTreeWarmup(2,2)
+    val tree = makeTreeWarmup(3,3)
     println("The tree has " + countNodes(tree)+  " nodes. ")
     println(tree)
 

@@ -50,7 +50,6 @@ object HittingTree {
   def makeHittingTree(all_cs : List[List[FOLTerm]], visited_comp: List[FOLTerm]): HittingTree[Any] = all_cs match {
     case List() => HittingTree(visited_comp, List())
     case List(List()) => HittingTree(visited_comp, List())
-    //case List(List(), _) => HittingTree(visited_comp, List())
     case all_cs => HittingTree(visited_comp, (for (cs_component <- all_cs.head) yield (if (visited_comp.contains(cs_component)) HittingTree(visited_comp, List()) else makeHittingTree(all_cs.tail, visited_comp ++ List(cs_component)))))
   }
 
@@ -61,7 +60,6 @@ object HittingTree {
    */
   def gatherHittingSets(hitting_tree: HittingTree[Any]): List[List[FOLTerm]] = hitting_tree match {
       case HittingTree(comp, List()) => List(comp)
-      //case HittingTree(comp, List(HittingTree(comp_found, children))) => (for (child <- children) yield gatherHittingSets(child)).concatenate
       case HittingTree(comp, trees) => ThreeDimConcat((for (tree <- trees) yield gatherHittingSets(tree))).filter(_ != List())
   }
   /**
