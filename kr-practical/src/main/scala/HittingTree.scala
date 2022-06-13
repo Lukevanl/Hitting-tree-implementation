@@ -102,10 +102,10 @@ object HittingTree {
     println(HTree + "\n")
     val HS = gatherHittingSets(HTree)
     println("Hitting sets: ")
-    println(HS)
+    println(HS + "\n")
     val diagnosis = getDiagnosis(HS)
     println("Minimal hitting sets:")
-    println(diagnosis)
+    println(diagnosis + "\n")
     diagnosis
     
   }
